@@ -12,6 +12,7 @@ import ActivateLocation from "./ActivateLocation";
 import Sunny from "./Sunny";
 import MainlySunny from "./MainlySunny";
 import PartlyCloudy from "./PartlyCloudy";
+import NoLocation from "./NoLocation";
 
 const Weather = () => {
 	const [weatherInfo, setWeatherInfo] = useState<TWeatherInfo | null>(null);
@@ -48,6 +49,7 @@ const Weather = () => {
 			{weatherInfo?.WMOCode === 1 ? <MainlySunny /> : null}
 			{weatherInfo?.WMOCode === 2 ? <PartlyCloudy /> : null}
 			{weatherInfo?.WMOCode === 3 ? <Cloudy /> : null}
+			{!weatherInfo ? <NoLocation /> : null}
 		</div>
 	);
 };
