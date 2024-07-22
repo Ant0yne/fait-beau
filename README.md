@@ -15,8 +15,7 @@ A little webapp to animate the weather in your location
 - Typescript
 - Tailwind
 - Zustand
-- Zod
 - Motion Framer
 - next-pwa
 
-Thanks to Leo Ueno (stellasphere) for their [WMO weather interpretation code descriptions](https://gist.github.com/stellasphere/9490c195ed2b53c707087c8c2db4ec0c)
+Thanks to Leo Ueno (stellasphere) for their [WMO weather interpretation code descriptions](https://gist.github.com/stellasphere/9490c195ed2b53c707087c8c2db4ec0c) and roe-dl for their [weather related symbols and icons svg](https://github.com/roe-dl/weathericons)

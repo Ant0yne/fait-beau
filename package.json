@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@openmeteo/sdk": "^1.11.11",
+    "framer-motion": "^11.3.8",
     "next": "14.2.5",
     "openmeteo": "^1.1.4",
     "react": "^18",
