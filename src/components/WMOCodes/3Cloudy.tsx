@@ -3,7 +3,7 @@ import React from "react";
 const Cloudy = () => {
 	return (
 		<div>
-			<h2>Nuageux</h2>
+			<h2 className="text-center text-3xl font-bold">Nuageux</h2>
 			<p>Ça passe en vrai</p>
 		</div>
 	);

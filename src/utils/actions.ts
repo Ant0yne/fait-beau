@@ -22,6 +22,7 @@ export const fetchData = async (
 	const url = "https://api.open-meteo.com/v1/meteofrance";
 	try {
 		const responses = await fetchWeatherApi(url, params);
+		console.log(responses);
 
 		// Helper function to form time ranges
 		const range = (start: number, stop: number, step: number) =>

@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@openmeteo/sdk": "^1.11.11",
     "next": "14.2.5",
     "openmeteo": "^1.1.4",
     "react": "^18",
