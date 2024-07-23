@@ -62,8 +62,13 @@ export const fetchData = async (
 				// 	weatherData.hourly.time[i].toISOString(),
 				// 	weatherData.hourly.weatherCode[i]
 				// );
+				// TODO: de-comment
+				// return {
+				// 	WMOCode: weatherData.hourly.weatherCode[i],
+				// 	day: weatherData.hourly.isDay[i] ? "day" : "night",
+				// };
 				return {
-					WMOCode: weatherData.hourly.weatherCode[i],
+					WMOCode: 0,
 					day: weatherData.hourly.isDay[i] ? "day" : "night",
 				};
 			}

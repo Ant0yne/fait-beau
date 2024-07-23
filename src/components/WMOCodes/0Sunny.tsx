@@ -11,6 +11,9 @@ const Sunny = () => {
 					rotate: [0, 45, 90, 135, 180, 225, 270, 315],
 					scale: [1, 1.1, 1, 1.1, 1.1, 1, 1.1, 1],
 				}}
+				drag="y"
+				dragConstraints={{ top: 0, bottom: 0 }}
+				dragSnapToOrigin
 				transition={{
 					repeat: Infinity,
 					duration: 10,
